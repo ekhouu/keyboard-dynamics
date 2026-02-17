@@ -1,0 +1,82 @@
+{
+  "_notes": [
+    "tried to map countries to their most common keyboard layouts. most participants",
+    "were not from english speaking countries, and we can't be sure exactly what layouts",
+    "they were using, but this works as a stopgap solution. if the country uses a latin script",
+    "i simply took the default layout for it; if not, used whatever was most common for",
+    "latin script typing there. not all layouts are exactly the same but the general category",
+    "should be enough for now. decided to use short country names for experiment convenience"
+  ],
+  "layout_to_country": {
+    "QWERTY": [
+      "EE",
+      "GR",
+      "ID",
+      "IL",
+      "IT",
+      "LV",
+      "MX",
+      "MM",
+      "PK",
+      "PL",
+      "PT",
+      "ZA",
+      "ES",
+      "GB",
+      "US"
+    ],
+    "QWERTZ": [
+      "CZ",
+      "DE",
+      "HU",
+      "SI"
+    ],
+    "AZERTY": [
+      "FR"
+    ]
+  },
+  "country_to_layout": {
+    "PT": "QWERTY",
+    "IT": "QWERTY",
+    "PL": "QWERTY",
+    "MX": "QWERTY",
+    "GR": "QWERTY",
+    "GB": "QWERTY",
+    "HU": "QWERTZ",
+    "EE": "QWERTY",
+    "LV": "QWERTY",
+    "IL": "QWERTY",
+    "PK": "QWERTY",
+    "ES": "QWERTY",
+    "DE": "QWERTZ",
+    "FR": "AZERTY",
+    "CZ": "QWERTZ",
+    "ZA": "QWERTY",
+    "ID": "QWERTY",
+    "SI": "QWERTZ",
+    "MM": "QWERTY",
+    "US": "QWERTY"
+  },
+  "csv_nationality_to_alpha2": {
+    "Portugal": "PT",
+    "Italy": "IT",
+    "Poland": "PL",
+    "Mexico": "MX",
+    "Greece": "GR",
+    "United Kingdom": "GB",
+    "Hungary": "HU",
+    "Estonia": "EE",
+    "Latvia": "LV",
+    "Israel": "IL",
+    "Pakistan": "PK",
+    "Spain": "ES",
+    "Germany": "DE",
+    "France": "FR",
+    "Czech Republic": "CZ",
+    "South Africa": "ZA",
+    "Indonesia": "ID",
+    "Slovenia": "SI",
+    "Myanmar": "MM",
+    "United States of America": "US"
+  }
+}
